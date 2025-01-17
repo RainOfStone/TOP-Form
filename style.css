@@ -1,19 +1,70 @@
+body {
+    background-color: black;
+}
+.ultimate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+}
 .main-container {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: white;
     height: 100vh;
-    width: 100vw;
+    width: 94vw;
+    margin: 0;
 }
-.background-container {
+.main-form-container {
     display: flex;
-    height: 50em;
-    width: 50em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 65vw;
     background-color: gray;
+}
+.form-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 70vh;
+    width: 54vw;
+    background-color: white;
+}
+.main-text {
+    display: flex;
+    font-size: 1.75em;
+    height: 9vh;
+    width: 48vw;
+    background-color: white;
+}
+.main-text1 {
+    display: flex;
+    font-size: 1.75em;
+    height: 6vh;
+    width: 48vw;
+    background-color: white;
+}
+.sub-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.75em;
+    height: 10vh;
+    width: 48vw;
+    background-color: white;
 }
 .image-container {
     display: flex;
-    height: 50em;
-    width: 30em;
+    justify-content: center;
+    align-items: end;
+    font-size: 1.5em;
+    color: white;
+    height: 100vh;
+    width: 35vw;
     background-color: lightblue;
+    background-image: url(photos/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
 }
