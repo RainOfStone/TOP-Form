@@ -3,13 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <title>TOP-Form</title>
     </head>
     <body>
         <div class="ultimate-container">
             <div class="main-container">
                 <div class="image-container">
-                    <div class="TOP"></div>
+                    <div class="TOP">
+                        <div class="TOP-image"></div>
+                        ODIN
+                    </div>
+                    <div class="TOP2"></div>
                     <div class="credit">photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" style="color: white;">Halie West</a>
                     on <a href="https://unsplash.com/" style="color: white">Unsplash</a>
                 </div>
@@ -22,6 +27,41 @@
                         </div>
                         <div class="main-text1">Sign up&nbsp;<i>now</i>&nbsp;to get started.</div>
                         <div class="sub-text">You&nbsp;<i>know</i>&nbsp;you want to.</div>
+                        <div class="header">Let's do this!</div>
+                            <form action="#" method="get" class="form-main-container">
+                                <div class="mid-form-container">
+                                <div class="form-content">
+                                    <label for="first_name">First Name:</label>
+                                    <input type="text" id="first_name" name="first_name" required>
+                                </div>
+                                <div class="form-content">
+                                    <label for="first_name">Last Name:</label>
+                                    <input type="text" id="last_name" name="last_name" required>
+                                </div>
+                                <div class="form-content">
+                                    <label for="user_email">Email Address:</label>
+                                    <input type="email" id="user_email" name="email" required>
+                                </div>
+                                <div class="form-content">
+                                    <label for="phone_number">Phone Number</label>
+                                    <input type="tel" id="phone_number" name="phone_number"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                </div>
+                                <div class="form-content">
+                                    <label for="user_password">Password:</label>
+                                    <input type="password" id="user_password" name="password" required>
+                                </div>
+                                <div class="form-content">
+                                    <label for="user_password">Confirm Password:</label>
+                                    <input type="password" id="user_password" name="password" required>
+                                </div>
+                            </div>
+                            <div class="main-button-container"></div>
+                                <div class="button-container">
+                                <button type="submit">Create Account</button>
+                                <div class="bottom-text">Already have an account? <a href="google.com" style="color: rgb(48, 99, 48);">Log in</a></div>
+                            </div>
+                        </form>
+                            </div>
                     </div>
                 </div>
             </div>
